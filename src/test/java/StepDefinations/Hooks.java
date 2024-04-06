@@ -1,9 +1,11 @@
 package StepDefinations;
 
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.time.Duration;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -23,5 +25,13 @@ public class Hooks {
 	@AfterAll
 	public static void tearDown() throws IOException {
 		BaseClass.driverClose();
+	}
+	
+	@AfterStep
+	public void addScreenShot(Scenario scenario) {
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		byte[] ss = ts.getScreenshotAs(OutputType.BYTES);
+		scenario.attach(ss, "image/png", scenario.getName());
+		
 	}
 }
