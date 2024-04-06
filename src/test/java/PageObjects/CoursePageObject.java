@@ -22,7 +22,7 @@ public class CoursePageObject extends BasePage {
 	WebElement text_rating_sec;
 	@FindBy(xpath="//div[@data-e2e='key-information']//section/div[2]/div[3]/div[1]")
 	WebElement text_hours;
-	@FindBy(xpath="//div[@data-e2e='key-information']//section/div/div[2]/div/div/div[1]")
+	@FindBy(xpath="//div[@data-e2e='key-information']//section/div/div[3]/div/div/div[1]")
 	WebElement text_hours_sec;
 	@FindBy(tagName="h1")
 	WebElement text_course;
@@ -62,6 +62,7 @@ public class CoursePageObject extends BasePage {
 		    res = (mon*4)*h;
 		}
 		else{
+			System.out.println(hours);
 		    int h = Integer.valueOf(hours.substring(0,hours.indexOf(" hours")));
 		    res = h;
 		}
