@@ -1,0 +1,52 @@
+17:20:44.287 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+17:20:44.466 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+17:20:48.810 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+17:20:49.210 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+17:20:49.519 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+17:20:51.182 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+17:20:51.197 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+17:21:10.691 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+17:23:48.548 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+17:23:48.610 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+17:23:52.437 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+17:23:52.848 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+17:23:53.169 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+17:23:54.311 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+17:23:54.321 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+17:24:08.093 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+17:31:31.351 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+17:31:31.459 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+17:31:35.695 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+17:31:36.026 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+17:31:36.363 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+17:31:37.361 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+17:31:37.371 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+17:32:40.632 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+21:52:48.349 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+21:52:48.466 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+21:52:53.444 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+21:52:53.823 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+21:52:54.216 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+21:52:54.941 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+21:52:54.953 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+21:53:14.485 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+22:26:03.969 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+22:26:04.083 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+22:26:10.008 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+22:26:10.463 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+22:26:10.938 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+22:26:12.089 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+22:26:12.130 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+22:26:25.423 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+22:29:20.969 [main] INFO  BasePackage.BaseClass - The user sends the input as Web development Courses as input to search Box
+22:29:25.805 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+22:29:26.064 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+22:29:26.220 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+22:29:27.392 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+22:29:27.638 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+22:29:38.265 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+22:54:08.946 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+22:54:09.175 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+22:54:16.241 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+22:54:18.589 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+22:54:21.084 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner

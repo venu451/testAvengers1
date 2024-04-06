@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-06T16:48:10 IST" name="Suite" finished-at="2024-04-06T16:48:47 IST" duration-ms="36756">
+  <suite started-at="2024-04-06T22:29:11 IST" name="Suite" finished-at="2024-04-06T22:29:43 IST" duration-ms="31466">
     <groups>
     </groups>
-    <test started-at="2024-04-06T16:48:10 IST" name="Test" finished-at="2024-04-06T16:48:47 IST" duration-ms="36756">
+    <test started-at="2024-04-06T22:29:11 IST" name="Test" finished-at="2024-04-06T22:29:43 IST" duration-ms="31466">
       <class name="TestCases.TC_001_CapturingCourseInfo">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@2a693f59]" started-at="2024-04-06T16:48:11 IST" name="driverSetup" finished-at="2024-04-06T16:48:26 IST" duration-ms="15316" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@7fd50002]" started-at="2024-04-06T22:29:11 IST" name="driverSetup" finished-at="2024-04-06T22:29:20 IST" duration-ms="9059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="courseSearch()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@2a693f59]" started-at="2024-04-06T16:48:26 IST" name="courseSearch" finished-at="2024-04-06T16:48:32 IST" duration-ms="6084" status="PASS">
+        <test-method signature="courseSearch()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@7fd50002]" started-at="2024-04-06T22:29:20 IST" name="courseSearch" finished-at="2024-04-06T22:29:27 IST" duration-ms="6449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseSearch -->
-        <test-method signature="capturingCourseData()[pri:1, instance:TestCases.TC_001_CapturingCourseInfo@2a693f59]" started-at="2024-04-06T16:48:32 IST" name="capturingCourseData" finished-at="2024-04-06T16:48:41 IST" depends-on-methods="TestCases.TC_001_CapturingCourseInfo.courseSearch" duration-ms="9170" status="PASS">
+        <test-method signature="capturingCourseData()[pri:1, instance:TestCases.TC_001_CapturingCourseInfo@7fd50002]" started-at="2024-04-06T22:29:27 IST" name="capturingCourseData" finished-at="2024-04-06T22:29:38 IST" depends-on-methods="TestCases.TC_001_CapturingCourseInfo.courseSearch" duration-ms="10634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturingCourseData -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@2a693f59]" started-at="2024-04-06T16:48:42 IST" name="driverClose" finished-at="2024-04-06T16:48:47 IST" duration-ms="4923" status="PASS">
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@7fd50002]" started-at="2024-04-06T22:29:38 IST" name="driverClose" finished-at="2024-04-06T22:29:43 IST" duration-ms="4519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->

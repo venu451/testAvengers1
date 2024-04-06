@@ -20,8 +20,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
+import java.net.*;
 
 import Utilities.ExcelUtility;
 
@@ -50,12 +52,12 @@ public class BaseClass {
 			}
 			
 			if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
-				driver = new ChromeDriver();
+				cap.setBrowserName("chrome");
 			}
 			else {
-				driver = new EdgeDriver();
+				cap.setBrowserName("MicrosoftEdge");
 			}
-				
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 		}
 		else {
 			if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
