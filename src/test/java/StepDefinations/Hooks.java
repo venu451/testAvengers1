@@ -29,9 +29,9 @@ public class Hooks {
 	
 	@AfterStep
 	public void addScreenShot(Scenario scenario) {
-		TakesScreenshot ts = (TakesScreenshot)driver;
-		byte[] ss = ts.getScreenshotAs(OutputType.BYTES);
-		scenario.attach(ss, "image/png", scenario.getName());
+			TakesScreenshot ts = (TakesScreenshot)driver;
+			byte[] ss = ts.getScreenshotAs(OutputType.BYTES);
+			scenario.attach(ss, "image/png", scenario.getName());
 		
 	}
 }

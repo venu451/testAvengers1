@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-				features= {".//FeatureFiles/CourseInfo.feature"},
+				features= {".//FeatureFiles/CourseInfo.feature",".//FeatureFiles/Readytotransform.feature"},
 				glue="StepDefinations",
 				plugin= {"pretty","html:Reports/myreports.html",
 						 "rerun:target/rerun.txt",

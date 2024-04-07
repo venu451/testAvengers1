@@ -1,8 +1,16 @@
-00:39:14.601 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
-00:39:14.988 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
-00:39:18.912 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
-00:39:19.548 [main] INFO  BasePackage.BaseClass - The user selected the language as English
-00:39:20.071 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
-00:39:21.417 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
-00:39:21.753 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
-00:39:41.604 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+11:58:10.870 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+11:58:10.998 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+11:58:16.406 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+11:58:16.854 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+11:58:17.073 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+11:58:17.993 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+11:58:18.047 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+11:58:28.396 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+12:02:56.300 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+12:02:56.670 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+12:03:01.443 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+12:03:02.100 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+12:03:02.699 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+12:03:03.392 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+12:03:03.758 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+12:03:14.618 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
