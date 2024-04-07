@@ -1,15 +1,14 @@
 package TestCases;
 
 import java.io.IOException;
-import java.time.Duration;
 
 import org.testng.annotations.Test;
 
-import BasePackage.BaseClass;
+import BasePackage.TestNGBaseClass;
 import PageObjects.ReadytotransformObject;
 import PageObjects.RegisterForm;
 
-public class TC_003_ReadyToTransform extends BaseClass{
+public class TC_003_ReadyToTransform extends TestNGBaseClass{
 	ReadytotransformObject ro;
 	RegisterForm Rf;
 	

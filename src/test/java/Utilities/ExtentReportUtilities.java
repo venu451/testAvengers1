@@ -72,7 +72,7 @@ public class ExtentReportUtilities implements ITestListener {
 		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		test.log(Status.PASS,result.getName()+" got successfully executed");
 		try {
-			String imgPath = new BasePackage.BaseClass().captureScreen(result.getName());
+			String imgPath = new BasePackage.TestNGBaseClass().captureScreen(result.getName());
 			test.addScreenCaptureFromPath(imgPath);
 		} 
 		catch (Exception e1) {
@@ -90,7 +90,7 @@ public class ExtentReportUtilities implements ITestListener {
 		test.log(Status.INFO, result.getThrowable().getMessage());
 //		
 		try {
-			String imgPath = new BasePackage.BaseClass().captureScreen(result.getName());
+			String imgPath = new BasePackage.TestNGBaseClass().captureScreen(result.getName());
 			test.addScreenCaptureFromPath(imgPath);
 		} 
 		catch (Exception e1) {
