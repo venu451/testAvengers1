@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-08T11:27:49 IST" name="Suite" finished-at="2024-04-08T11:28:52 IST" duration-ms="62727">
+  <suite started-at="2024-04-08T12:24:01 IST" name="Suite" finished-at="2024-04-08T12:24:57 IST" duration-ms="55621">
     <groups>
     </groups>
-    <test started-at="2024-04-08T11:27:49 IST" name="Test" finished-at="2024-04-08T11:28:52 IST" duration-ms="62727">
+    <test started-at="2024-04-08T12:24:01 IST" name="Test" finished-at="2024-04-08T12:24:57 IST" duration-ms="55621">
       <class name="TestCases.TC_003_ReadyToTransform">
-        <test-method signature="navigationToContactUsPage()[pri:1, instance:TestCases.TC_003_ReadyToTransform@6c4906d3]" started-at="2024-04-08T11:28:25 IST" name="navigationToContactUsPage" finished-at="2024-04-08T11:28:43 IST" duration-ms="18227" status="PASS">
+        <test-method signature="navigationToContactUsPage()[pri:1, instance:TestCases.TC_003_ReadyToTransform@6c4906d3]" started-at="2024-04-08T12:24:32 IST" name="navigationToContactUsPage" finished-at="2024-04-08T12:24:48 IST" duration-ms="16531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigationToContactUsPage -->
-        <test-method signature="fillingTheForm()[pri:2, instance:TestCases.TC_003_ReadyToTransform@6c4906d3]" started-at="2024-04-08T11:28:43 IST" name="fillingTheForm" finished-at="2024-04-08T11:28:47 IST" duration-ms="3760" status="PASS">
+        <test-method signature="fillingTheForm()[pri:2, instance:TestCases.TC_003_ReadyToTransform@6c4906d3]" started-at="2024-04-08T12:24:49 IST" name="fillingTheForm" finished-at="2024-04-08T12:24:52 IST" duration-ms="3204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingTheForm -->
       </class> <!-- TestCases.TC_003_ReadyToTransform -->
       <class name="TestCases.TC_001_CapturingCourseInfo">
-        <test-method is-config="true" signature="driverSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T11:27:49 IST" name="driverSetup" finished-at="2024-04-08T11:28:01 IST" duration-ms="11390" status="PASS">
+        <test-method is-config="true" signature="driverSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T12:24:02 IST" name="driverSetup" finished-at="2024-04-08T12:24:14 IST" duration-ms="12567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,15 +38,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="courseSearch()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T11:28:01 IST" name="courseSearch" finished-at="2024-04-08T11:28:06 IST" duration-ms="5459" status="PASS">
+        <test-method signature="courseSearch()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T12:24:14 IST" name="courseSearch" finished-at="2024-04-08T12:24:21 IST" duration-ms="6440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseSearch -->
-        <test-method signature="capturingCourseData()[pri:1, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T11:28:07 IST" name="capturingCourseData" finished-at="2024-04-08T11:28:25 IST" depends-on-methods="TestCases.TC_001_CapturingCourseInfo.courseSearch" duration-ms="18308" status="PASS">
+        <test-method signature="capturingCourseData()[pri:1, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T12:24:21 IST" name="capturingCourseData" finished-at="2024-04-08T12:24:32 IST" depends-on-methods="TestCases.TC_001_CapturingCourseInfo.courseSearch" duration-ms="10514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturingCourseData -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T11:28:47 IST" name="driverClose" finished-at="2024-04-08T11:28:52 IST" duration-ms="4473" status="PASS">
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestCases.TC_001_CapturingCourseInfo@4d0d9fe7]" started-at="2024-04-08T12:24:52 IST" name="driverClose" finished-at="2024-04-08T12:24:57 IST" duration-ms="5009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->

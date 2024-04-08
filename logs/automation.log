@@ -28,3 +28,19 @@
 11:59:57.448 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
 12:00:01.689 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
 12:00:21.365 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+12:24:14.895 [main] INFO  BasePackage.BaseClassNG - The user sends the input as Web development Courses as input to search Box
+12:24:19.603 [main] INFO  BasePackage.BaseClassNG - The user clicks on the search button
+12:24:19.937 [main] INFO  BasePackage.BaseClassNG - The user selected the language as English
+12:24:20.181 [main] INFO  BasePackage.BaseClassNG - The user selected the level as Beginner
+12:24:21.244 [main] INFO  BasePackage.BaseClassNG - The status of the filters is applied
+12:24:21.657 [main] INFO  BasePackage.BaseClassNG - Capturing the list of Courses
+12:24:32.148 [main] INFO  BasePackage.BaseClassNG - Captured the first two courses and printed to the console
+12:24:36.962 [main] INFO  BasePackage.BaseClassNG - user scrolling the page to the bottom
+12:24:42.334 [main] INFO  BasePackage.BaseClassNG - User clicked on ForEnterprise
+12:24:42.556 [main] INFO  BasePackage.BaseClassNG - Users clicks on the solutions
+12:24:48.951 [main] INFO  BasePackage.BaseClassNG - users clicks on the ready to transform
+12:24:49.086 [main] INFO  BasePackage.BaseClassNG - User navigated to ready to transform page
+12:24:49.086 [main] INFO  BasePackage.BaseClassNG - user entered all the detailed
+12:24:50.033 [main] INFO  BasePackage.BaseClassNG - User captured the error message
+12:24:51.077 [main] INFO  BasePackage.BaseClassNG - User captured the error message
+12:24:52.014 [main] INFO  BasePackage.BaseClassNG - User captured the error message
