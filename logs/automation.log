@@ -1,46 +1,19 @@
-11:53:39.555 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
-11:53:39.927 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
-11:53:53.664 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
-11:53:53.866 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
-11:53:53.866 [main] INFO  BasePackage.BaseClass - user entered all the detailed
-11:53:55.798 [main] INFO  BasePackage.BaseClass - User captured the error message
-11:54:03.102 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
-11:54:08.319 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
-11:54:08.982 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
-11:54:21.077 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
-11:54:21.207 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
-11:54:21.207 [main] INFO  BasePackage.BaseClass - user entered all the detailed
-11:54:22.298 [main] INFO  BasePackage.BaseClass - User captured the error message
-11:54:34.392 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
-11:54:45.426 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
-11:54:45.757 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
-11:54:53.459 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
-11:54:53.588 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
-11:54:53.588 [main] INFO  BasePackage.BaseClass - user entered all the detailed
-11:54:54.741 [main] INFO  BasePackage.BaseClass - User captured the error message
-11:59:14.676 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
-11:59:15.077 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
-11:59:19.567 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
-11:59:20.251 [main] INFO  BasePackage.BaseClass - The user selected the language as English
-11:59:20.894 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
-11:59:21.674 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
-11:59:22.072 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
-11:59:57.448 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
-12:00:01.689 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
-12:00:21.365 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
-12:24:14.895 [main] INFO  BasePackage.BaseClassNG - The user sends the input as Web development Courses as input to search Box
-12:24:19.603 [main] INFO  BasePackage.BaseClassNG - The user clicks on the search button
-12:24:19.937 [main] INFO  BasePackage.BaseClassNG - The user selected the language as English
-12:24:20.181 [main] INFO  BasePackage.BaseClassNG - The user selected the level as Beginner
-12:24:21.244 [main] INFO  BasePackage.BaseClassNG - The status of the filters is applied
-12:24:21.657 [main] INFO  BasePackage.BaseClassNG - Capturing the list of Courses
-12:24:32.148 [main] INFO  BasePackage.BaseClassNG - Captured the first two courses and printed to the console
-12:24:36.962 [main] INFO  BasePackage.BaseClassNG - user scrolling the page to the bottom
-12:24:42.334 [main] INFO  BasePackage.BaseClassNG - User clicked on ForEnterprise
-12:24:42.556 [main] INFO  BasePackage.BaseClassNG - Users clicks on the solutions
-12:24:48.951 [main] INFO  BasePackage.BaseClassNG - users clicks on the ready to transform
-12:24:49.086 [main] INFO  BasePackage.BaseClassNG - User navigated to ready to transform page
-12:24:49.086 [main] INFO  BasePackage.BaseClassNG - user entered all the detailed
-12:24:50.033 [main] INFO  BasePackage.BaseClassNG - User captured the error message
-12:24:51.077 [main] INFO  BasePackage.BaseClassNG - User captured the error message
-12:24:52.014 [main] INFO  BasePackage.BaseClassNG - User captured the error message
+12:40:55.748 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+12:41:14.768 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+12:41:14.953 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+12:41:14.954 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+12:41:17.923 [main] INFO  BasePackage.BaseClass - User captured the error message
+12:41:22.945 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
+12:41:27.378 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+12:41:27.976 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+12:41:35.436 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+12:41:35.603 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+12:41:35.603 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+12:41:37.359 [main] INFO  BasePackage.BaseClass - User captured the error message
+12:41:41.362 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
+12:41:45.705 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+12:41:46.246 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+12:41:53.243 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+12:41:53.410 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+12:41:53.410 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+12:41:55.225 [main] INFO  BasePackage.BaseClass - User captured the error message
