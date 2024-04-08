@@ -1,0 +1,57 @@
+11:34:13.723 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+11:34:23.583 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+11:34:23.705 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+11:34:23.706 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+11:34:24.876 [main] INFO  BasePackage.BaseClass - User captured the error message
+11:34:33.344 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
+11:34:47.278 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+11:34:47.582 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+11:35:20.596 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+11:35:20.853 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+11:35:20.853 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+11:35:22.873 [main] INFO  BasePackage.BaseClass - User captured the error message
+11:35:37.756 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
+11:35:53.329 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+11:35:53.748 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+11:36:07.834 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+11:36:07.960 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+11:36:07.960 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+11:36:08.881 [main] INFO  BasePackage.BaseClass - User captured the error message
+11:41:12.828 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+11:41:13.097 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+11:41:17.851 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+11:41:18.323 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+11:41:18.556 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+11:41:20.057 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+11:41:20.332 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+11:41:41.039 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+11:41:44.535 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
+11:41:51.417 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+11:41:51.887 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+11:42:01.237 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+11:42:01.420 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+11:42:01.420 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+11:42:03.649 [main] INFO  BasePackage.BaseClass - User captured the error message
+11:42:09.322 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
+11:42:14.462 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+11:42:14.961 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+11:42:24.484 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+11:42:24.675 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+11:42:24.675 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+11:42:26.781 [main] INFO  BasePackage.BaseClass - User captured the error message
+11:42:31.939 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom
+11:42:37.254 [main] INFO  BasePackage.BaseClass - User clicked on ForEnterprise
+11:42:38.014 [main] INFO  BasePackage.BaseClass - Users clicks on the solutions
+11:42:47.874 [main] INFO  BasePackage.BaseClass - users clicks on the ready to transform
+11:42:47.992 [main] INFO  BasePackage.BaseClass - User navigated to ready to transform page
+11:42:47.992 [main] INFO  BasePackage.BaseClass - user entered all the detailed
+11:42:49.227 [main] INFO  BasePackage.BaseClass - User captured the error message
+11:53:08.441 [main] INFO  BasePackage.BaseClass - The User is navigated to the coursera Home Page
+11:53:08.802 [main] INFO  BasePackage.BaseClass - The user sends the input as Web Development Courses as input to search Box
+11:53:13.512 [main] INFO  BasePackage.BaseClass - The user clicks on the search button
+11:53:14.048 [main] INFO  BasePackage.BaseClass - The user selected the language as English
+11:53:14.382 [main] INFO  BasePackage.BaseClass - The user selected the level as Beginner
+11:53:15.272 [main] INFO  BasePackage.BaseClass - The status of the filters is applied
+11:53:15.443 [main] INFO  BasePackage.BaseClass - Capturing the list of Courses
+11:53:26.810 [main] INFO  BasePackage.BaseClass - Captured the first two courses and printed to the console
+11:53:30.664 [main] INFO  BasePackage.BaseClass - user scrolling the page to the bottom

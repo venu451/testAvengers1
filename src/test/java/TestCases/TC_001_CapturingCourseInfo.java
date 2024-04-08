@@ -8,11 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import BasePackage.TestNGBaseClass;
+import BasePackage.BaseClassNG;
 import PageObjects.CoursePageObject;
 import PageObjects.HomePageObject;
 
-public class TC_001_CapturingCourseInfo extends TestNGBaseClass {
+public class TC_001_CapturingCourseInfo extends BaseClassNG {
 	
 	HomePageObject hpo;
 	CoursePageObject cpo;

@@ -1,5 +1,6 @@
 package PageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,7 +30,10 @@ public class ReadytotransformObject extends BasePage {
 	WebElement CoursersForCampus;
 	@FindBy(xpath="//div/a/span[text()=\"Contact us\"]")
 	WebElement ContactUs;
-	
+	@FindBy(xpath="//div[@class='mktoError']")
+	public WebElement mess;
+	@FindBy(xpath="//div[@class='mktoError']/preceding::label[1]")
+	public WebElement relLabel;
 	//Actions
 	public void ForIndividualsClick() {
 		forIndividuals.click();

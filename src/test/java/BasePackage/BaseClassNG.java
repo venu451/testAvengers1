@@ -1,10 +1,10 @@
 package BasePackage;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -12,7 +12,8 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,36 +23,39 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.*;
-import java.net.*;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
-import Utilities.ExcelUtility;
 
-public class BaseClass {
+import Utilities.ExcelUtilityNG;
+
+public class BaseClassNG {
 	public static WebDriver driver;
 	public static WebDriverWait mywait;
 	public static Logger log;
 	public static XSSFWorkbook wb;
 	public static XSSFSheet ws;
 	public static FileOutputStream fo;
-	public static ExcelUtility eu;
+	public static ExcelUtilityNG eu;
 	public static int rowNum;
 	public static Properties prop;
 	
 	@BeforeTest
-	public static WebDriver driverSetup() throws IOException {
+	@Parameters({"browser","execution_env","os"})
+	public static WebDriver driverSetup(String browser,String env,String os) throws IOException {
 		prop = new Properties();
 		FileReader file = new FileReader(".//src/test/resources/config.properties");
 		prop.load(file);
-		if(prop.getProperty("execution_env").equalsIgnoreCase("remote")) {
+		if(env.equalsIgnoreCase("remote")) {
 			DesiredCapabilities cap = new DesiredCapabilities();
-			if(prop.getProperty("os").equalsIgnoreCase("windows")) {
+			if(os.equalsIgnoreCase("windows")) {
 				cap.setPlatform(Platform.WIN11);
 			}else {
 				cap.setPlatform(Platform.MAC);
 			}
 			
-			if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
+			if(browser.equalsIgnoreCase("chrome")) {
 				cap.setBrowserName("chrome");
 			}
 			else {
@@ -60,7 +64,7 @@ public class BaseClass {
 			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 		}
 		else {
-			if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
+			if(browser.equalsIgnoreCase("chrome")) {
 				driver = new ChromeDriver();
 			}
 			else {
@@ -72,12 +76,12 @@ public class BaseClass {
 		driver.get(prop.getProperty("appUrl"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		eu = new ExcelUtility();
+		eu = new ExcelUtilityNG();
 		wb = new XSSFWorkbook();
 		ws = wb.createSheet("Sheet1");
 		rowNum =0;
 		log = LogManager.getLogger();
-		fo = new FileOutputStream(System.getProperty("user.dir")+"/exceldata/cucumberExcelData.xlsx");
+		fo = new FileOutputStream(System.getProperty("user.dir")+"/exceldata/"+browser+".xlsx");
 		mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		return driver;
 	}

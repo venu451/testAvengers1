@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 	@RunWith(Cucumber.class)
-	@CucumberOptions(
+	@CucumberOptions(	
 				features= {".//FeatureFiles/CourseInfo.feature",".//FeatureFiles/Readytotransform.feature"},
 				glue="StepDefinations",
 				plugin= {"pretty","html:Reports/myreports.html",
